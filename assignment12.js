@@ -61,3 +61,12 @@ const phone={
     model:"M13"
 }
 console.log(phone.brand);
+
+// 9. Write a function `squareNumber(x)` that returns the square of a number. Use 
+// it to square the number `4`.
+
+function squareNumber(x){
+    console.log(x*x);
+}
+squareNumber(4);
+
