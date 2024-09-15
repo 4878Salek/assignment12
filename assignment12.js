@@ -53,3 +53,11 @@ isPositive(-3);
 // array.
 var colors = ["blue", "red", "green", "yellow", "gray"];
 console.log(colors.length);
+
+// 8. Create an object `phone` with properties `brand` and `model`. Print the 
+// `brand` of the phone.
+const phone={
+    brand:"samsung",
+    model:"M13"
+}
+console.log(phone.brand);
