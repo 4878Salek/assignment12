@@ -17,5 +17,14 @@ var dog = { name: "popy",
 var fruits=["orange","banana","apple"];
 console.log(fruits[0]);
 
+// 4. Write a function `doubleNumber(x)` that returns the double of a number. Use 
+// it to double the number `5`.
+
+function doubleNumber(x){
+    console.log(x+=x);
+}
+doubleNumber(5);
+
+
 
  
