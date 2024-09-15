@@ -54,19 +54,33 @@ isPositive(-3);
 var colors = ["blue", "red", "green", "yellow", "gray"];
 console.log(colors.length);
 
-// 8. Create an object `phone` with properties `brand` and `model`. Print the 
+// 8. Create an object `phone` with properties `brand` and `model`. Print the
 // `brand` of the phone.
-const phone={
-    brand:"samsung",
-    model:"M13"
-}
+const phone = {
+  brand: "samsung",
+  model: "M13",
+};
 console.log(phone.brand);
 
-// 9. Write a function `squareNumber(x)` that returns the square of a number. Use 
+// 9. Write a function `squareNumber(x)` that returns the square of a number. Use
 // it to square the number `4`.
 
-function squareNumber(x){
-    console.log(x*x);
+function squareNumber(x) {
+  console.log(x * x);
 }
 squareNumber(4);
+
+// 10. Create an array `numbers` with the values `1, 2, 3, 4, 5`. Write a function
+// `sumArray(arr)` that returns the sum of all the numbers in the array.
+
+const numbers = [1, 2, 3, 4, 5];
+function sumArray(arr) {
+  let total = 0;
+  for (num = 0; num <= numbers.length; num++) {
+    total += num;
+  }
+  console.log(total);
+}
+sumArray(numbers);
+
 
