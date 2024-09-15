@@ -48,3 +48,8 @@ function isPositive(number) {
   }
 }
 isPositive(-3);
+
+// 7. Create an array `colors` with five different color names. Print the length of the
+// array.
+var colors = ["blue", "red", "green", "yellow", "gray"];
+console.log(colors.length);
