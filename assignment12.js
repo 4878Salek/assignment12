@@ -11,5 +11,11 @@ var dog = { name: "popy",
     breed:"american"
  };
  console.log(" the dog name is "+ dog.name + " and the breed of dog is "+dog.breed );
- 
+
+//  3. Create an array `fruits` with three fruit names. Print the first fruit in the array.
+
+var fruits=["orange","banana","apple"];
+console.log(fruits[0]);
+
+
  
