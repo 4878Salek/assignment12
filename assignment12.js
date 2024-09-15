@@ -37,3 +37,14 @@ const student = {
   },
 };
 console.log(student.showGrade());
+
+// 6. Write a function `isPositive(number)` that checks if a number is positive. Use it
+// to check if `-3` is positive.
+function isPositive(number) {
+  if (number < 0) {
+    console.log(false);
+  } else {
+    console.log(true);
+  }
+}
+isPositive(-3);
